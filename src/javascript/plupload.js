@@ -968,6 +968,8 @@
 
 		// Add public methods
 		plupload.extend(this, {
+			uploadNext: uploadNext,
+			
 			/**
 			 * Current state of the total uploading progress. This one can either be plupload.STARTED or plupload.STOPPED.
 			 * These states are controlled by the stop/start methods. The default value is STOPPED.
